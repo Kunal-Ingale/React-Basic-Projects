@@ -1,0 +1,107 @@
+*{
+  max-width: 1280px;
+  margin-left: 8px;
+  
+  
+}
+/* navBar */
+nav{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid grey;
+ 
+  
+}
+nav ul{
+  display: flex;  
+  list-style: none;
+  gap: 24px;
+  padding-right: 50px;
+  font-weight: bold;
+
+}
+.logo
+{
+  font-size:x-large;
+ font-weight: bold;
+ padding-left: 12px;
+}
+
+/* header */
+.contact h1{ 
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact p{
+ font-weight: bold;
+ margin-bottom: 50px; 
+}
+
+/* Form */
+
+.Form{
+  border: solid gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 650px;
+}
+
+.formElements{
+ 
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  position: relative;
+  margin-bottom: 25px;
+
+}
+.formElements input{
+  height: 35px;
+  padding: 0 6px;
+}
+
+.formElements label{
+  position: absolute;
+  top: -10px;
+  left: 13px;
+  background-color: white;
+  padding:0 6px;
+  font-weight: bold;
+  
+}
+.submit{
+  margin-top: 10px;
+  position: relative;
+}
+.btnSubmit {
+ color: white;
+ font-size: 16px;
+ background-color: black;
+ height: 40px;
+ width: 80px;
+ position: absolute;
+ left: 120px;
+ 
+}
+
+/* container */
+.img img
+{
+  position: absolute;
+  left: 750px;
+  width: 485px;
+ top: 0px;
+ 
+  margin: 0;
+  
+}
+
+.container{
+  position: relative;
+  padding-top: 40px;
+}
