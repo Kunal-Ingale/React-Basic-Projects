@@ -1,0 +1,36 @@
+.container{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    border-style: double;
+    background-color: rgb(212, 209, 206);
+    max-width: 300px;
+}
+
+.content{
+   justify-content: center;
+   align-items: center;
+    
+}
+.Expense{
+    text-decoration: off;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    border: none;
+    background-color: rgb(245, 245, 250);
+ padding: 2px;
+ margin: 4px;
+ cursor: pointer;
+}
+.buttons{
+    display: flex;
+
+}
